@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "genericsample",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "genericsample",
+    "section": "Install",
+    "text": "Install\npip install genericsample"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "genericsample",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  },
+  {
+    "objectID": "genericsample.html",
+    "href": "genericsample.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\ncache_data\n\n cache_data (url:str='', force:bool=False, timedelta=Timedelta('0 days\n             00:30:00'), cache:bool=True, cleanup:bool=True,\n             cache_location:str='~/.cache/sampler', keeplast:int=5)\n\nChecks if the data exists or if the force is turned on. Returns\n\nsource\n\n\nsample_from_spreadsheet\n\n sample_from_spreadsheet (url:str='https://docs.google.com/spreadsheets/d/\n                          1F3-\n                          gMc8J57UBUo2DTsvVU7C1U1uncEpXmzE13DKwGQQ/edit#gi\n                          d=1444336398', n_samples:int=10, title:str='',\n                          row_spacing:int=5, first_n_columns:int=1)\n\n\ndf = cache_data(\n    url=\"https://docs.google.com/spreadsheets/d/1F3-gMc8J57UBUo2DTsvVU7C1U1uncEpXmzE13DKwGQQ/edit#gid=1444336398\",\n    timedelta=pd.Timedelta(0.5, unit='hour'),\n    keeplast=3,\n    cleanup=True,\n)\n\n\ndf2 = sample_from_spreadsheet()\n\n\n\n\n\n\n\n\n\n\n┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\n┃ Title                                                        ┃\n┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩\n│ The Unix-Haters Handbook                                     │\n│ Modern Views of Electricity                                  │\n│ And Suddenly the Inventor Appeared                           │\n│ What is Life?                                                │\n│ Analog VLSI and Neural Systems                               │\n│                                                              │\n│ Renaissance Engineers from Brunelleschi to Leonardo da Vinci │\n│ Tesla: Man Out of Time                                       │\n│ The Disappearance of Childhood                               │\n│ Patterns of Plausible Inference                              │\n│ Switch                                                       │\n└──────────────────────────────────────────────────────────────┘\nLink to spreadsheet"
+  }
+]
